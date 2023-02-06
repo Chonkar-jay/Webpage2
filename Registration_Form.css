@@ -1,0 +1,36 @@
+@keyframes bgcoloranimation
+{
+    0%{background-color: lightcyan;}
+    25%{background-color: lightskyblue;}
+    50%{background-color: lightgoldenrodyellow;}
+    75%{background-color: lightpink;}
+    100%{background-color: lightsalmon;}
+}
+@keyframes heading_bg_animation
+{
+    0%{background-color:lightsalmon;}
+    25%{background-color: lightpink;}
+    50%{background-color: lightgoldenrodyellow;}
+    75%{background-color: lightskyblue;}
+    100%{background-color: lightcyan;}
+}
+.pgbackground
+{
+    animation-name: bgcoloranimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.field
+{
+    background-color: rgb(34, 43, 48);
+}
+
+#heading_bg
+{
+    animation-name: heading_bg_animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color: whitesmoke;
+    margin-left: 300px;
+    margin-right: 300px;
+}
